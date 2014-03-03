@@ -1,5 +1,5 @@
 (defproject reno "0.0.0-ALPHA"
-  :description "Reno: A small web app for listing a meetup group's schedules and info"
+  :description "Reno: A small web app for listing a meetup group's schedule and info"
   :url "http://reno.seberius.com"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
