@@ -4,20 +4,20 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure       "1.5.1"]
-                 [org.clojure/core.async    "0.1.278.0-76b25b-alpha"]
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
                  [org.clojure/clojurescript "0.0-2173"]
-                 [http-kit                  "2.1.17"]
-                 [ring                      "1.2.1"]
-                 [com.taoensso/sente        "0.8.0"]
-                 [compojure                 "1.1.6"]
-                 [hiccup                    "1.0.5"]
-                 [ring-anti-forgery         "0.3.0"]
-                 [com.taoensso/timbre       "3.1.1"]
-                 [om                        "0.5.0"]
-                 [sablono                   "0.2.6"]]
+                 [http-kit "2.1.17"]
+                 [ring "1.2.1"]
+                 [com.taoensso/sente "0.8.0"]
+                 [compojure "1.1.6"]
+                 [hiccup "1.0.5"]
+                 [ring-anti-forgery "0.3.0"]
+                 [com.taoensso/timbre "3.1.1"]
+                 [om "0.5.0"]
+                 [sablono "0.2.6"]]
 
-  :plugins [[lein-cljsbuild      "1.0.2"]]
+  :plugins [[lein-cljsbuild "1.0.2"]]
 
   :cljsbuild {
     :builds [{:id "reno"
