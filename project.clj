@@ -9,7 +9,7 @@
                  [org.clojure/clojurescript "0.0-2173"]
                  [http-kit "2.1.17"]
                  [ring "1.2.1"]
-                 [com.taoensso/sente "0.8.0"]
+                 [com.taoensso/sente "0.8.2"]
                  [compojure "1.1.6"]
                  [hiccup "1.0.5"]
                  [ring-anti-forgery "0.3.0"]

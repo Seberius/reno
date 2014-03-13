@@ -1,5 +1,4 @@
 (ns reno.services
-  (:require [reno.channels :as chan]))
+  (:require [reno.channels :as chan]
+            [reno.io :as io]))
 
-(def
-  (go-loop [message (<! chan/new-messages)]))
