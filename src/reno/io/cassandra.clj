@@ -10,15 +10,3 @@
 
 (def query-message-insert (client/prepared
                            (insert :meetings {})))
-
-(defn query-service []
-  (go (while true
-        (let [message (<! chan/cassandra-query)
-              {:keys query-type uid author date data} message]
-          (match query-type
-
-                 [:create]
-                 (client/execute)
-
-                 [:delete]
-                 (client/execute))))))
