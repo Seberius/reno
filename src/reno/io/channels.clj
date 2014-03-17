@@ -1,4 +1,4 @@
-(ns reno.channels
+(ns reno.io.channels
   (:require [clojure.core.async :as async :refer [<! >! chan go]]))
 
 (def new-messages (chan))

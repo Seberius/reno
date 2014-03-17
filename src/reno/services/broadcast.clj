@@ -1,4 +1,4 @@
-(ns reno.broadcast
+(ns reno.services.broadcast
   (:require [reno.io.channels :as chan]
             [reno.io.sockets :as sckt]))
 

@@ -1,4 +1,4 @@
-(ns reno.sockets
+(ns reno.io.sockets
   (:require [taoensso.sente :as sente]))
 
 (def app-socket (sente/make-channel-socket! {}))
