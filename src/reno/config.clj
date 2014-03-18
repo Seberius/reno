@@ -2,6 +2,7 @@
 
 (def databases
   {:cassandra
-   {:clusters [{:contact-points ["127.0.0.1"]
+   {:clusters [{:name "app"
+                :contact-points ["127.0.0.1"]
                 :port 9180}]
     :keyspaces ["app"]}})
